@@ -1,26 +1,45 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { SectionWrapper } from "@/hoc";
+import { styles } from "@/app/styles";
+import { textVariant, fadeIn } from "@/utils/motion";
 import { ProjectCard } from "@/components/sub/project-card";
 import { PROJECTS } from "@/constants";
 
+// Projects Section
 export const Projects = () => {
   return (
-    <section
-      id="projects"
-      className="flex flex-col items-center justify-center py-20"
-    >
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        My Projects
-      </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        {PROJECTS.map((project) => (
-          <ProjectCard
-            key={project.title}
-            src={project.image}
-            title={project.title}
-            description={project.description}
-            link={project.link}
-          />
-        ))}
-      </div>
-    </section>
+    <SectionWrapper>
+      <>
+        {/* Title */}
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>My Work</p>
+          <h2 className={styles.sectionHeadText}>Projects.</h2>
+        </motion.div>
+
+        {/* About */}
+        <div className="w-full flex">
+          <motion.p
+            variants={fadeIn("left", "tween", 0.1, 1)}
+            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          >
+            Following projects showcases my skills and experience through
+            real-world examples of my work. Each project is briefly described
+            with links to code repositories and live demos in it. It reflects my
+            ability to solve complex problems, work with different technologies,
+            and manage projects effectively.
+          </motion.p>
+        </div>
+
+        {/* Project Card */}
+        <div className="mt-20 flex flex-wrap gap-7">
+          {PROJECTS.map((project, i) => (
+            <ProjectCard key={`project-${i}`} index={i} {...project} />
+          ))}
+        </div>
+      </>
+    </SectionWrapper>
   );
 };
+

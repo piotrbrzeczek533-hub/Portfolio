@@ -27,7 +27,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
           inter.className
         )}
       >
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
         <Navbar />
         {children}
         <Footer />
