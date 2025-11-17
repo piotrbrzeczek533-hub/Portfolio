@@ -10,7 +10,7 @@ import { PROJECTS } from "@/constants";
 // Projects Section
 export const Projects = () => {
   return (
-    <SectionWrapper idName="Work">
+    <SectionWrapper idName="projects">
       <>
         {/* Title */}
         <motion.div variants={textVariant()}>

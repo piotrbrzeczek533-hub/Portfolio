@@ -10,7 +10,7 @@ import { ExperienceCard } from "../sub/experience-card";
 
 export const Experience = () => {
   return (
-    <SectionWrapper idName="work">
+    <SectionWrapper idName="experience">
       <>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What I have done so far</p>
