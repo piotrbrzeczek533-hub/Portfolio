@@ -25,10 +25,14 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// import meta from "./company/meta.png";
+// import shopify from "./company/shopify.png";
+// import starbucks from "./company/starbucks.png";
+// import tesla from "./company/tesla.png";
+import fullstack from "./company/fullstack.png";
+import appstronauts from "./company/appstronauts.png";
+import techfirst from "./company/tech_first.png";
+import codigee from "./company/codigee.png";
 
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
@@ -69,10 +73,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  fullstack,
+  appstronauts,
+  techfirst,
+  codigee,
   project1,
   project2,
   project3,

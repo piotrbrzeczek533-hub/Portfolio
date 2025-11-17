@@ -25,7 +25,7 @@ export const HeroContent = () => {
           >
             <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13px]">
-              Fullstack Developer Portfolio
+              Fullstack AI Engineer
             </h1>
           </motion.div>
 
@@ -50,12 +50,12 @@ export const HeroContent = () => {
             Mobile, and Software development. Check out my projects and skills.
           </motion.p>
 
-          <motion.a
+          {/* <motion.a
             variants={slideInFromLeft(1)}
             className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           >
             Learn more
-          </motion.a>
+          </motion.a> */}
         </div>
 
         <motion.div
@@ -73,7 +73,7 @@ export const HeroContent = () => {
         </motion.div>
       </motion.div>
       {/* Scroll to about section */}
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-16 bottom-20 w-full flex justify-center items-center">
         <a href="#about-me">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

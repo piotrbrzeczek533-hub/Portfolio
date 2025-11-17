@@ -25,10 +25,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  fullstack,
+  appstronauts,
+  techfirst,
+  codigee,
   threejs,
   project1,
   project2,
@@ -49,14 +49,14 @@ export const SKILL_DATA = [
   {
     skill_name: "HTML",
     image: "html.png",
-    width: 80,
-    height: 80,
+    width: 90,
+    height: 90,
   },
   {
     skill_name: "CSS",
     image: "css.png",
-    width: 80,
-    height: 80,
+    width: 90,
+    height: 90,
   },
   {
     skill_name: "JavaScript",
@@ -65,103 +65,10 @@ export const SKILL_DATA = [
     height: 65,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "TypeScript",
     image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
-] as const;
-
-export const SOCIALS = [
-  {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
-  },
-] as const;
-
-export const FRONTEND_SKILL = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "Tailwind CSS",
@@ -170,53 +77,14 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "Material UI",
-    image: "mui.png",
+    skill_name: "Python",
+    image: "Python.svg",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-] as const;
-
-export const BACKEND_SKILL = [
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Express.js",
-    image: "express.png",
+    skill_name: "Java",
+    image: "Java.jpg",
     width: 80,
     height: 80,
   },
@@ -225,12 +93,6 @@ export const BACKEND_SKILL = [
     image: "mongodb.png",
     width: 40,
     height: 40,
-  },
-  {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
   },
   {
     skill_name: "PostgreSQL",
@@ -243,6 +105,58 @@ export const BACKEND_SKILL = [
     image: "mysql.png",
     width: 70,
     height: 70,
+  },
+  {
+    skill_name: "Redis",
+    image: "redis.png",
+    width: 80,
+    height: 80,
+  }
+] as const;
+
+export const BACKEND_SKILL = [
+  {
+    skill_name: "Django",
+    image: "django.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Flask",
+    image: "flask.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "FastAPI",
+    image: "fastapi.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Spring Boot",
+    image: "springboot.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Node.js",
+    image: "node.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Express.js",
+    image: "express.png",
+    width: 80,
+    height: 80,
+  },
+  
+  {
+    skill_name: "Firebase",
+    image: "firebase.png",
+    width: 55,
+    height: 55,
   },
   {
     skill_name: "Prisma",
@@ -258,7 +172,19 @@ export const BACKEND_SKILL = [
   },
 ] as const;
 
-export const FULLSTACK_SKILL = [
+export const FRONTEND_SKILL = [
+  {
+    skill_name: "React",
+    image: "react.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "ReactQuery",
+    image: "reactquery.png",
+    width: 70,
+    height: 70,
+  },
   {
     skill_name: "React Native",
     image: "reactnative.png",
@@ -266,56 +192,116 @@ export const FULLSTACK_SKILL = [
     height: 70,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
+    skill_name: "Redux",
+    image: "redux.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "Docker",
-    image: "docker.png",
+    skill_name: "Next.js 14",
+    image: "next.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Angular",
+    image: "angular.png",
+    width: 70,
+    height: 70,
+  }
+] as const;
+export const AI_SKILL = [
+  {
+    skill_name: "TensorFlow",
+    image: "TensorFlow.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "PyTorch",
+    image: "PyTorch.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Langchain",
+    image: "langchain.svg",
     width: 70,
     height: 70,
   },
 
   {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
+    skill_name: "OpenAI",
+    image: "openai.png",
+    width: 70,
+    height: 70,
   },
 ] as const;
 
 export const OTHER_SKILL = [
   {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
+    skill_name: "Pytest",
+    image: "pytest.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Jest",
+    image: "jest.svg",
+    width: 50,
+    height: 50,
+  }
+] as const;
+
+export const SOCIALS = [
+  {
+    name: "Linkedin",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/piotr-brezczek",
+  },
+  {
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com",
   },
 ] as const;
 
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Python Developer",
+    company_name: "Appstronauts",
+    icon: appstronauts,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2018 - April 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed scalable Flask/FastAPI microservices for a cloud-based media management platform, integrating AWS S3, SNS, and Lambda.",
+      "Implemented Elasticsearch indexing and advanced search, improving relevance by 30%.",
+      "Built React dashboards for real-time system monitoring and analytics.",
+      "Optimized high-throughput APIs using asynchronous I/O (aiohttp, Celery), maintaining responsiveness under heavy load.",
+      "Standardized testing and deployment workflows with pytest, GitHub Actions, and Docker Compose."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    company_name: "Codigee",
+    icon: codigee,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2020 - August 2022",
+    points: [
+      "Led modernization of enterprise ERP and logistics systems (Django + Angular), optimizing backend performance and frontend interactivity.",
+      "Introduced Redis caching and lazy Angular modules, cutting page load time by 40%.",
+      "Built Flask-based Twilio Voice API for automated call handling, reducing operational costs by 60%.",
+      "Migrated legacy APIs to FastAPI, improving concurrency and reducing CPU load by 20%.",
+      "Integrated Azure AD SSO with role-based access control for enterprise data security.",
+    ],
+  },
+  {
+    title: "Full Stack / AI Engineer",
+    company_name: "Techfirst",
+    icon: techfirst,
+    iconBg: "#b4b0afff",
+    date: "September 2022 - May 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -324,29 +310,19 @@ export const EXPERIENCES = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Senior Full stack Developer",
+    company_name: "Apreel",
+    icon: fullstack,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "May 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led end-to-end software architecture of cloud-native AI automation platforms using event-driven microservices, FastAPI, Django REST, and Node.js.",
+      "Designed modular backend APIs (PostgreSQL, Redis, RabbitMQ), containerized with Docker and deployed via Terraform + GitHub Actions, reducing release cycles significantly.",
+      "Implemented MCP (Model Context Protocol)-based LLM integration, turning Django/FastAPI APIs into AI-discoverable endpoints for agent workflows.",
+      "Built Next.js dashboards with WebSocket streaming and REST APIs for real-time visualization and system control.",
+      "Introduced Prometheus + Grafana observability, cutting incident response times by 35%.",
+      "Enforced TDD practices (pytest, Jest) and mentored engineers through code review and architecture sessions.",
+      "Mentored junior engineers, established code review standards, and led architectural reviews to maintain high-quality, maintainable codebases across Python and JavaScript stacks.",
     ],
   },
 ] as const;
@@ -560,6 +536,10 @@ export const NAV_LINKS = [
     link: "#skills",
   },
   {
+    title: "Experience",
+    link: "#experience",
+  },
+  {
     title: "Projects",
     link: "#projects",
   },
@@ -568,3 +548,5 @@ export const NAV_LINKS = [
 export const LINKS = {
   sourceCode: "https://github.com/sanidhyy/space-portfolio",
 };
+
+export const Portfolio_name = "Piotr Brzeczek"

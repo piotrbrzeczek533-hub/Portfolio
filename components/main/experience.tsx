@@ -17,10 +17,10 @@ export const Experience = () => {
           <h2 className={styles.sectionHeadText}>Work Experience.</h2>
         </motion.div>
 
-        <div className="mt-20">
+        <div className="mt-10">
           <Timeline>
             {EXPERIENCES.map((exp, i) => (
-              <ExperienceCard key={i} experience={exp} />
+              <ExperienceCard key={i} experience={exp} index={i} />
             ))}
           </Timeline>
         </div>

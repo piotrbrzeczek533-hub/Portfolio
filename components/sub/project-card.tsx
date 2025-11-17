@@ -27,7 +27,7 @@ export const ProjectCard = ({
         scale: 1,
         speed: 450,
       }}
-      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      className="p-5 rounded-2xl sm:w-[360px] w-full bg-[#1d1836] text-white rounded-xl border-l-4 border-[#232631]"
     >
       <div className="relative w-full h-[230px]">
         {/* Work image */}
@@ -71,7 +71,7 @@ export const ProjectCard = ({
       {/* Work Info */}
       <div className="mt-5">
         <h3 className="text-white font-bold text-[24px]">{name}</h3>
-        <p className="mt-2 text-secondary text-[14px]">{description}</p>
+        <p className="mt-2 text-gray-400 text-[14px]">{description}</p>
       </div>
 
       {/* Work Tag */}
