@@ -17,7 +17,7 @@ export const Experience = () => {
           <h2 className={styles.sectionHeadText}>Work Experience.</h2>
         </motion.div>
 
-        <div className="mt-10">
+        <div className="mt-6">
           <Timeline>
             {EXPERIENCES.map((exp, i) => (
               <ExperienceCard key={i} experience={exp} index={i} />

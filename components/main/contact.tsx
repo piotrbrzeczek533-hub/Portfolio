@@ -118,13 +118,13 @@ export const Contact = () => {
 
   return (
     <SectionWrapper idName="contact">
-      <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden w-full max-w-[1350px] mx-auto min-h-[600px]">
+      <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden w-full max-w-[1450px] mx-auto min-h-[500px] gap-50">
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
           className="flex-1 bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] p-8 rounded-2xl border border-purple-500/20 shadow-2xl shadow-purple-500/20 backdrop-blur-sm flex flex-col justify-between"
         >
           {/* Title */}
-          <div className="mb-8">
+          <div className="mb-2">
             <p className={`${styles.sectionSubText} bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent`}>Get in touch</p>
             <h3 className={styles.sectionHeadText}>Contact.</h3>
           </div>
@@ -133,7 +133,7 @@ export const Contact = () => {
           <form
             ref={formRef}
             onSubmit={handleSubmit}
-            className="mt-12 flex flex-col gap-8"
+            className="mt-2 flex flex-col gap-4"
           >
             {/* Name */}
             <div className="flex flex-col">
@@ -243,7 +243,7 @@ export const Contact = () => {
         {/* Earth Model */}
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+          className="xl:flex-1 aspect-square xl:h-auto md:h-[550px] w-[600px]"
         >
           <EarthCanvas />
         </motion.div>

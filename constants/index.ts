@@ -330,70 +330,70 @@ export const EXPERIENCES = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Robin + Noguier",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Robin Noguier’s website is a creative and interactive experience that showcases his design work for major global brands through playful visuals, bold animations, and a strong personal identity.",
     tags: [
       {
-        name: "react",
+        name: "NextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TailwndCSS",
         color: "pink-text-gradient",
       },
     ],
     image: project1,
     source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    live_site_link: "https://robin-noguier.com/",
   },
   {
-    name: "Golds Gym",
+    name: "Safiyajewels",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "Safiya Jewels is a luxury jewelry brand specializing in natural, untreated Alexandrite pieces with a strong focus on authenticity, craftsmanship, and elegant design.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Flask",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "Paypal",
         color: "pink-text-gradient",
       },
     ],
     image: project2,
     source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    live_site_link: "https://safiyajewels.com/",
   },
   {
-    name: "Shoppy",
+    name: "Letsplaysports",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "Lets Play Sports is a UK platform and app that lets people easily find, join, or organize casual local sports games with a simple, flexible membership.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "syncfusion",
+        name: "FastAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CMS",
         color: "pink-text-gradient",
       },
     ],
     image: project3,
     source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+    live_site_link: "https://letsplaysports.co.uk/",
   },
   {
     name: "TikTok Clone",
@@ -440,89 +440,22 @@ export const PROJECTS = [
     live_site_link: "https://reactjscryptoapp.netlify.app/",
   },
   {
-    name: "Travel Advisor",
+    name: "Nutresana",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "The site for Nutresana is built on WordPress using PHP and MySQL on the back end, and leverages HTML5, CSS3, Bootstrap, and JavaScript for the front end.",
     tags: [
       {
-        name: "react",
+        name: "WordPress",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Stripe",
         color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
       },
     ],
     image: project6,
     source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
-  },
-] as const;
-
-export const FOOTER_DATA = [
-  {
-    title: "Community",
-    data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
-    ],
-  },
-  {
-    title: "Social Media",
-    data: [
-      {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
-    ],
-  },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
-      },
-    ],
+    live_site_link: "https://www.nutresana.com/",
   },
 ] as const;
 
