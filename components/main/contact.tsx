@@ -92,9 +92,7 @@ export const Contact = () => {
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "",
         {
           from_name: form.name,
-          to_name: Portfolio_name,
           from_email: form.email.trim().toLowerCase(),
-          to_email: process.env.NEXT_PUBLIC_EMAILJS_RECEIVER || "",
           message: form.message,
         },
       )
@@ -149,9 +147,8 @@ export const Contact = () => {
                   title="What's your name?"
                   disabled={loading}
                   aria-disabled={loading}
-                  className={`flex-1 bg-white/5 backdrop-blur-sm py-4 px-6 placeholder:text-gray-500 text-white rounded-xl outline-none border-2 font-medium transition-all duration-300 hover:bg-white/10 focus:bg-white/15 focus:border-purple-500 disabled:bg-gray-500/10 disabled:text-white/60 ${
-                    errors.name ? "border-red-500 shadow-lg shadow-red-500/30" : "border-purple-500/30 hover:border-purple-500/50"
-                  }`}
+                  className={`flex-1 bg-white/5 backdrop-blur-sm py-4 px-6 placeholder:text-gray-500 text-white rounded-xl outline-none border-2 font-medium transition-all duration-300 hover:bg-white/10 focus:bg-white/15 focus:border-purple-500 disabled:bg-gray-500/10 disabled:text-white/60 ${errors.name ? "border-red-500 shadow-lg shadow-red-500/30" : "border-purple-500/30 hover:border-purple-500/50"
+                    }`}
                 />
               </label>
 
@@ -177,9 +174,8 @@ export const Contact = () => {
                   title="What's your email?"
                   disabled={loading}
                   aria-disabled={loading}
-                  className={`flex-1 bg-white/5 backdrop-blur-sm py-4 px-6 placeholder:text-gray-500 text-white rounded-xl outline-none border-2 font-medium transition-all duration-300 hover:bg-white/10 focus:bg-white/15 focus:border-purple-500 disabled:bg-gray-500/10 disabled:text-white/60 ${
-                    errors.email ? "border-red-500 shadow-lg shadow-red-500/30" : "border-purple-500/30 hover:border-purple-500/50"
-                  }`}
+                  className={`flex-1 bg-white/5 backdrop-blur-sm py-4 px-6 placeholder:text-gray-500 text-white rounded-xl outline-none border-2 font-medium transition-all duration-300 hover:bg-white/10 focus:bg-white/15 focus:border-purple-500 disabled:bg-gray-500/10 disabled:text-white/60 ${errors.email ? "border-red-500 shadow-lg shadow-red-500/30" : "border-purple-500/30 hover:border-purple-500/50"
+                    }`}
                 />
               </label>
 
@@ -204,9 +200,8 @@ export const Contact = () => {
                 title="What do you want to say?"
                 disabled={loading}
                 aria-disabled={loading}
-                className={`bg-white/5 backdrop-blur-sm py-4 px-6 placeholder:text-gray-500 text-white rounded-xl outline-none border-2 font-medium transition-all duration-300 hover:bg-white/10 focus:bg-white/15 focus:border-purple-500 disabled:bg-gray-500/10 disabled:text-white/60 resize-none ${
-                  errors.message ? "border-red-500 shadow-lg shadow-red-500/30" : "border-purple-500/30 hover:border-purple-500/50"
-                }`}
+                className={`bg-white/5 backdrop-blur-sm py-4 px-6 placeholder:text-gray-500 text-white rounded-xl outline-none border-2 font-medium transition-all duration-300 hover:bg-white/10 focus:bg-white/15 focus:border-purple-500 disabled:bg-gray-500/10 disabled:text-white/60 resize-none ${errors.message ? "border-red-500 shadow-lg shadow-red-500/30" : "border-purple-500/30 hover:border-purple-500/50"
+                  }`}
               />
 
               {/* Invalid Message */}
