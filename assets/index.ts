@@ -33,6 +33,8 @@ import fullstack from "./company/fullstack.png";
 import appstronauts from "./company/appstronauts.png";
 import techfirst from "./company/tech_first.png";
 import codigee from "./company/codigee.png";
+import thoughtworks from "./company/thoughtworks.png"
+import atlas from "./company/atlas analytics.png"
 
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
@@ -77,6 +79,8 @@ export {
   appstronauts,
   techfirst,
   codigee,
+  thoughtworks,
+  atlas,
   project1,
   project2,
   project3,
