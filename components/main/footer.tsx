@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { FOOTER_DATA, Portfolio_name } from "@/constants";
+import { Portfolio_name } from "@/constants";
 
 export const Footer = () => {
   return (
